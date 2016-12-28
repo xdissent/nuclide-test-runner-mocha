@@ -1,7 +1,7 @@
 {
   "name": "nuclide-test-runner-mocha",
   "main": "./lib/nuclide-test-runner-mocha.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Nuclide test runner for mocha",
   "keywords": [
     "nuclide",
