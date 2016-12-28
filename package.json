@@ -1,0 +1,28 @@
+{
+  "name": "nuclide-test-runner-mocha",
+  "main": "./lib/nuclide-test-runner-mocha.js",
+  "version": "0.0.0",
+  "description": "Nuclide test runner for mocha",
+  "keywords": [
+    "nuclide",
+    "test",
+    "mocha"
+  ],
+  "repository": "https://github.com/xdissent/nuclide-test-runner-mocha",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "providedServices": {
+    "nuclide-test-runner.provider": {
+      "description": "Mocha Test Runner",
+      "versions": {
+        "0.0.0": "provideTestRunner"
+      }
+    }
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
